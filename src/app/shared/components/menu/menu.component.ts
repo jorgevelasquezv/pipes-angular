@@ -28,7 +28,7 @@ export class MenuComponent implements OnInit {
           {
             label: 'Uncommonness',
             icon: 'pi pi-globe',
-            routerLink: '/uncommon',
+            routerLink: 'uncommon',
           },
         ],
       },
@@ -37,9 +37,9 @@ export class MenuComponent implements OnInit {
         icon: 'pi pi-cog',
         items: [
           {
-            label: 'Another Element',
+            label: 'Custom Pipes',
             icon: 'pi pi-cog',
-            routerLink: '/pipes/another',
+            routerLink: 'custom',
           },
         ],
       },
